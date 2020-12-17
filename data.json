@@ -1,0 +1,35 @@
+{"Records": [
+    {
+        "kinesis": {
+            "kinesisSchemaVersion": "1.0",
+            "partitionKey": "𝕲𫞡訤墠𦇘𤞑淘㻌鹣춲옦𤁶ꃫ蛮ꔷ注𢯲𤡦浂レ횘ࠔ𥙸Ⅷ",
+            "sequenceNumber": "49613607738447255770658392757758689901251361814014328834",
+            "data": "eyJuYW1lIjoiQlJBU0lMSUEiLCJoZWF0X2luZGV4Ijo3OX0=",
+            "approximateArrivalTimestamp": 1608146846.641
+        },
+        "eventSource": "aws:kinesis",
+        "eventVersion": "1.0",
+        "eventID": "shardId-000000000000:49613607738447255770658392757758689901251361814014328834",
+        "eventName": "aws:kinesis:record",
+        "invokeIdentityArn": "arn:aws:iam::464818947915:role/send-data-thingboard-dev-us-east-1-kslambdaRole",
+        "awsRegion": "us-east-1",
+        "eventSourceARN": "arn:aws:kinesis:us-east-1:464818947915:stream/kinesis-data_stream-part-2"
+    },
+    {
+        "kinesis": {
+            "kinesisSchemaVersion": "1.0",
+            "partitionKey": "鮶🝤턪𨧻𠚙繟𧯇𠫳/x12苹౸䷋𪻊﹉𧮩𠝺夛𡡖𣑄衻",
+            "sequenceNumber": "49613607738447255770658392757759898827070976443189035010",
+            "data": "eyJuYW1lIjoiR09JQU5JQSIsImhlYXRfaW5kZXgiOjB9",
+            "approximateArrivalTimestamp": 1608146846.643
+        },
+        "eventSource": "aws:kinesis",
+        "eventVersion": "1.0",
+        "eventID": "shardId-000000000000:49613607738447255770658392757759898827070976443189035010",
+        "eventName": "aws:kinesis:record",
+        "invokeIdentityArn": "arn:aws:iam::464818947915:role/send-data-thingboard-dev-us-east-1-lambdaRole",
+        "awsRegion": "us-east-1",
+        "eventSourceARN": "arn:aws:kinesis:us-east-1:464818947915:stream/kinesis-data_stream-part-2"
+    }
+]
+}
