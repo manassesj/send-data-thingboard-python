@@ -24,13 +24,13 @@ def hello(event, context):
                 message['warning'] = "Caution"
             elif  celsius >= 32.1 and celsius <= 41.0:
                 message['warning'] = "Extreme caution"
-            elif celsius >= 41.1 <= 54.0:
+            elif celsius >= 41.1 and celsius <= 54.0:
                 message['warning'] = "Danger"
             else:
                 message['warning'] = "Extreme danger"
 
             message['heat_index'] = celsius
-            
+
 
         else:
             message['warning'] = "Normal"
